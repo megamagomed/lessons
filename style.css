@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.slider {
+    height: 800px;
+    background-image: url("img/slider-img.jpg");
+}
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid  #212121;
+}
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 3.6px;
+
+    display: inline-block;
+    text-decoration: none;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color:#c7c7c7;
+    border-radius: 50%;
+}
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+}
+.menu {
+    float: right;
+}
+.header {
+    padding-top: 63px;
+}
+.psdfcsdf{
+    height: 200px;
+    background-color: fuchsia;
+    text-align: center;
+}
